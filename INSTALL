@@ -179,7 +179,12 @@ Issues of note:
 
    All formats require at least asciidoc 8.4.1.
 
-   There are also "make quick-install-doc", "make quick-install-man"
+ - To build and install localized documentation suite, you need to
+   have the po4a package, too.  The build and install steps are the
+   same as outlined above, and the build documentation pages can be
+   accessed by doing "git help <commandname>" in your locale.
+
+ - There are also "make quick-install-doc", "make quick-install-man"
    and "make quick-install-html" which install preformatted man pages
    and html documentation. To use these build targets, you need to
    clone two separate git-htmldocs and git-manpages repositories next
